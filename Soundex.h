@@ -1,6 +1,4 @@
-#ifndef SOUNDEX_H
-#define SOUNDEX_H
- 
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -48,4 +46,3 @@ char* soundex(const char* str) {
     return soundex_code;
 }
  
-#endif // SOUNDEX_H
