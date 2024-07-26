@@ -43,3 +43,5 @@ void generateSoundex(const char *name, char *soundex) {
         processCharacter(name, soundex, &sIndex, i);
     }
 }
+
+#endif // SOUNDEX_H
